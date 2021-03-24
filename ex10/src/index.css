@@ -1,0 +1,51 @@
+html,body{
+    min-width:290px;
+      color: #4d4e53;
+      background-color: #ffffff;
+      line-height: 1.5;
+  }
+  #navbar{
+    position:fixed;
+    min-width:290px;
+    top:0px;
+    left:0px;
+    width:300px;
+    height:100%;
+    border-right:solid;
+    border-color:rgba(0,22,22,0.4)
+  }
+  header{
+    text-align:center;
+    font-weight:thin;
+    font-size: 1.6em;
+    background-color:gray;
+    color: white;
+    margin: 0.5em 0em;
+  }
+  a li:hover {
+      background-color: black!important;
+      color:white!important;
+  }
+  
+  #main-doc header{
+    text-align:left;
+    margin:0px;
+  }
+  #navbar ul{
+    height:88%;
+    overflow-y:auto;
+    overflow-x:hidden;
+  }
+  #navbar li{
+    color: #4d4e53;
+    padding:8px;
+    list-style: none;
+    position:relative;
+    width:100%; 
+  }
+  #main-doc{
+    position: absolute;
+    margin-left:150px;
+    padding:20px;
+    margin-bottom:110px;
+  }
